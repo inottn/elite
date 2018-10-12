@@ -1,0 +1,120 @@
+@import "../common/function";
+
+.feature {
+  .feature-title {
+    margin: 0 auto;
+    margin-top: responsive(40);
+    width: responsive(516);
+    font-size: responsive(30);
+    font-weight: bold;
+    color: #33334f;
+  }
+
+  .feature-text {
+    margin: 0 auto;
+    margin-top: responsive(40);
+    width: responsive(732);
+    font-size: responsive(16);
+    color: #767ead;
+    text-align: center;
+  }
+
+  .feature-list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: var(--root-padding-left);
+    margin-right: var(--root-padding-right);
+    
+    .feature-item {
+      margin-top: responsive(116);
+      width: 23.7%;
+      text-align: center;
+
+      .item-title {
+        margin-top: responsive(32);
+        font-size: responsive(18);
+        font-weight: 500;
+        color: #33334f;
+      }
+
+      .item-text {
+        margin-top: responsive(32);
+        font-size: responsive(16);
+        color: #767ead;
+      }
+    }
+
+    @each $var in (1, 2, 3, 4, 5, 6, 7, 8, 9, 10) {
+      .feature-item-#{$var} {
+        @if index(1 2 4 5 7 8, $var) != null {
+          margin-right: calc((100% - 23.7% * 3) / 2);
+        }
+
+        .item-image {
+          margin: 0 auto;
+          width: responsive(130);
+          height: responsive(117);
+          background-image: url("../images/feature/item#{$var}.png");
+          background-size: 100%;
+          background-repeat: no-repeat;
+        }
+      }
+    }
+
+    .feature-subscribe {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      padding: responsive(32) responsive(40);
+      width: responsive(586);
+      height: responsive(244);
+      background-color: #33334f;
+      border-radius: responsive(10);
+
+      .subscribe-title {
+        font-size: responsive(30);
+        font-weight: 500;
+        color: #ffffff;
+      }
+
+      .subscribe-text {
+        margin-top: responsive(22);
+        font-size: responsive(16);
+        color: #ffffff;
+      }
+
+      .subscribe-email {
+        position: relative;
+        margin-top: responsive(34);
+
+        .subscribe-input {
+          padding: responsive(20) responsive(32);
+          width: responsive(506);
+          height: responsive(60);
+          border-radius: responsive(30);
+          color: #767ead;
+
+          &::placeholder {
+            color: #767ead;
+          }
+        }
+
+        .subscribe-btn {
+          position: absolute;
+          top: responsive(5);
+          right: responsive(6);
+          padding: responsive(16) responsive(36);
+          width: responsive(156);
+          height: responsive(50);
+          border-radius: responsive(25);
+          background-color: #e4e5ef;
+          font-size: responsive(16);
+          font-weight: 500;
+          color: #767ead;
+        }
+      }
+    }
+  }
+}

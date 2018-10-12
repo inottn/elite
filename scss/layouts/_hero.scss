@@ -1,0 +1,176 @@
+@import "../common/function";
+
+.hero {
+  .menu {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: var(--menu-padding-top);
+    margin-left: var(--root-padding-left);
+    margin-right: var(--root-padding-right);
+    width: calc(100% - var(--root-padding-left) - var(--root-padding-right));
+    height: var(--menu-height);
+
+    .logo {
+      width: responsive(130);
+      height: responsive(42);
+      background-image: url("../images/logo.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      cursor: pointer;
+    }
+
+    .login, .register {
+      font-size: responsive(18);
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .login {
+      margin-left: auto;
+    }
+
+    .register {
+      margin-left: responsive(46);
+      padding: responsive(10) responsive(16);
+      border: 2px solid #ffffff;
+      border-radius: responsive(30);
+    }
+  }
+
+  .content-container {
+    display: flex;
+    margin-left: var(--root-padding-left);
+
+    .content {
+      width: var(--hero-content-width);
+
+      .content-vector {
+        margin-top: responsive(199);
+        width: responsive(100);
+        height: responsive(20);
+        background-image: url("../images/hero-content-vector.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+      }
+
+      .content-title {
+        margin-top: responsive(42);
+        width: responsive(406);
+        height: responsive(114);
+        font-size: responsive(50);
+        font-weight: bold;
+        color: #33334f;
+      }
+
+      .content-body {
+        margin-top: responsive(40);
+        width: responsive(448);
+        height: responsive(84);
+        font-size: responsive(18);
+        font-weight: bold;
+        color: #767ead;
+      }
+
+      .content-btn-group {
+        margin-top: responsive(40);
+        width: responsive(398);
+        height: responsive(55);
+        font-size: 0px;
+
+        .sign-up-btn, .watch-video-btn {
+          width: responsive(183);
+          height: responsive(55);
+          border-radius: responsive(55 / 2);
+          font-size: responsive(16);
+        }
+
+        .sign-up-btn {
+          margin-right: responsive(30);
+          background-color: #8065ff;
+          color: #fafeff;
+        }
+
+        .watch-video-btn {
+          background-color: #ffffff;
+          color: #8065ff;
+        }
+      }
+
+      .content-share {
+        display: flex;
+        margin-top: responsive(80);
+        font-size: responsive(16);
+        color: #7f87b2;
+
+        .share-twitter, .share-facebook {
+          padding-left: responsive(40)
+        }
+
+        .share-twitter {
+          margin-right: responsive(36);
+          background-image: url("../images/twitter.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+
+        .share-facebook {
+          background-image: url("../images/facebook.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .content-text {
+        margin-top: responsive(80);
+        font-size: responsive(18);
+        color: #33334f;
+      }
+
+      .content-brand {
+        display: flex;
+        justify-content: space-between;
+        margin-top: responsive(67);
+        width: responsive(435);
+
+        @each $var in (1, 2, 3, 4, 5) {
+          .brand-#{$var} {
+            height: responsive(30);
+            background-image: url("../images/hero/brand#{$var}.png");
+            background-size: 100%;
+            background-repeat: no-repeat;
+          }
+
+          .brand-1 {
+            width: responsive(31);
+          }
+
+          .brand-2 {
+            width: responsive(28);
+          }
+
+          .brand-3 {
+            width: responsive(48);
+          }
+
+          .brand-4 {
+            width: responsive(75);
+          }
+
+          .brand-5 {
+            width: responsive(33);
+          }
+        }
+      }
+    }
+
+    .vector {
+      width: var(--vector-width);
+      height: responsive(993);
+      background-image: url("../images/vector.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+}

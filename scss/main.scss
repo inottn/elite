@@ -1,0 +1,37 @@
+@import "./common/var";
+@import "./common/function";
+@import "./layouts/hero";
+@import "./layouts/feature";
+
+$base-root-width: 1681px;
+$base-root-padding-left: 250px;
+$base-root-padding-right: 250px;
+$base-menu-height: 82px;
+$base-menu-padding-top: 20px;
+$base-vector-width: 904px;
+$base-hero-content-width: 528px;
+
+:root {
+  --root-width: 100vw;
+  --root-padding-left: #{responsive($base-root-padding-left)};
+  --root-padding-right: #{responsive($base-root-padding-right)};
+  --menu-height: #{responsive($base-menu-height)};
+  --menu-padding-top: #{responsive($base-menu-padding-top)};
+  --hero-content-width: #{responsive($base-hero-content-width)};
+  --vector-width: #{responsive($base-vector-width)};
+}
+
+html, body, button {
+  margin: 0;
+  padding: 0;
+}
+
+button, input {
+  border: none;
+  outline: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
