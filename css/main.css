@@ -491,6 +491,208 @@
   color: #767ead;
 }
 
+.integration {
+  display: flex;
+  padding-left: var(--root-padding-left);
+  height: 77.81083vw;
+  background-image: url("../images/integration/integration_bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.integration .content .content-vector {
+  margin-top: 24.39024vw;
+  width: 5.94884vw;
+  height: 1.18977vw;
+  background-image: url("../images/hero-content-vector.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.integration .content .content-title {
+  margin-top: 2.37954vw;
+  width: 18.20345vw;
+  height: 4.40214vw;
+  font-size: 1.78465vw;
+  font-weight: bold;
+  color: #33334f;
+}
+
+.integration .content .content-text {
+  margin-top: 2.61749vw;
+  width: 25.52052vw;
+  height: 5.59191vw;
+  font-size: 0.95181vw;
+  color: #767ead;
+}
+
+.integration .content .content-btn-group {
+  margin-top: 2.37954vw;
+  width: 23.67638vw;
+  height: 3.27186vw;
+  font-size: 0px;
+}
+
+.integration .content .content-btn-group .sign-up-btn, .integration .content .content-btn-group .watch-video-btn {
+  width: 10.88638vw;
+  height: 3.27186vw;
+  border-radius: 1.63593vw;
+  font-size: 0.95181vw;
+  cursor: pointer;
+}
+
+.integration .content .content-btn-group .sign-up-btn {
+  margin-right: 1.78465vw;
+  background-color: #8065ff;
+  color: #fafeff;
+}
+
+.integration .content .content-btn-group .watch-video-btn {
+  background-color: #ffffff;
+  color: #8065ff;
+}
+
+.integration .extensions .extension {
+  box-shadow: -0.18477vw 0.68953vw 1.78465vw 0px rgba(178, 178, 178, 0.05);
+}
+
+.integration .extensions .extension-1 {
+  border-radius: 50%;
+  background-image: url("../images/integration/extension1.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.integration .extensions .extension-2 {
+  border-radius: 50%;
+  background-image: url("../images/integration/extension2.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.integration .extensions .extension-3 {
+  border-radius: 50%;
+  background-image: url("../images/integration/extension3.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.integration .extensions .extension-4 {
+  border-radius: 50%;
+  background-image: url("../images/integration/extension4.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.integration .extensions .extension-5 {
+  border-radius: 50%;
+  background-image: url("../images/integration/extension5.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.integration .extensions .extension-6 {
+  border-radius: 50%;
+  background-image: url("../images/integration/extension6.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.integration .extensions .extension-7 {
+  border-radius: 50%;
+  background-image: url("../images/integration/extension7.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.integration .extensions .extension-8 {
+  border-radius: 50%;
+  background-image: url("../images/integration/extension8.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.integration .extensions .extension-9 {
+  border-radius: 50%;
+  background-image: url("../images/integration/extension9.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.integration .extensions .extension-1 {
+  width: 7.61452vw;
+  height: 7.61452vw;
+  background-color: #00467f;
+  background-size: 44%;
+  transform: translate(32.12374vw, 46.87686vw);
+}
+
+.integration .extensions .extension-2 {
+  width: 5.6157vw;
+  height: 5.6157vw;
+  background-color: #ff850d;
+  background-size: 57.2%;
+  transform: translate(11.89768vw, 31.64783vw);
+}
+
+.integration .extensions .extension-3 {
+  width: 7.61452vw;
+  height: 7.61452vw;
+  background-color: #ffffff;
+  background-size: 63.28%;
+  transform: translate(12.43308vw, 15.68114vw);
+}
+
+.integration .extensions .extension-4 {
+  width: 7.61452vw;
+  height: 7.61452vw;
+  background-color: #ffffff;
+  background-size: 47.66%;
+  transform: translate(38.66746vw, 14.43189vw);
+}
+
+.integration .extensions .extension-5 {
+  width: 7.73349vw;
+  height: 7.73349vw;
+  background-color: #13b5ea;
+  background-size: 100%;
+  transform: translate(39.91672vw, -5.25877vw);
+}
+
+.integration .extensions .extension-6 {
+  width: 5.60976vw;
+  height: 5.60976vw;
+  background-color: #00d7be;
+  background-size: 61.8%;
+  background-position: 50% 56%;
+  transform: translate(46.69839vw, 8.78049vw);
+}
+
+.integration .extensions .extension-7 {
+  width: 7.61452vw;
+  height: 7.61452vw;
+  background-color: #e6b935;
+  background-size: 54.69%;
+  transform: translate(17.48959vw, 3.23022vw);
+}
+
+.integration .extensions .extension-8 {
+  width: 12.07615vw;
+  height: 12.07615vw;
+  background-color: #ffffff;
+  background-size: 68.47%;
+  transform: translate(23.43843vw, -16.51993vw);
+}
+
+.integration .extensions .extension-9 {
+  width: 7.61452vw;
+  height: 7.61452vw;
+  background-color: #2e60a3;
+  background-size: 60.17%;
+  background-position: 50% 56%;
+  transform: translate(24.27127vw, -38.05473vw);
+}
+
 :root {
   --root-width: 100vw;
   --root-padding-left: 14.8721vw;

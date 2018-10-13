@@ -1,0 +1,153 @@
+@import "../common/function";
+
+.integration {
+  display: flex;
+  padding-left: var(--root-padding-left);
+  height: responsive(1308);
+  background-image: url("../images/integration/integration_bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  .content {
+    .content-vector {
+      margin-top: responsive(410);
+      width: responsive(100);
+      height: responsive(20);
+      background-image: url("../images/hero-content-vector.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    .content-title {
+      margin-top: responsive(40);
+      width: responsive(306);
+      height: responsive(74);
+      font-size: responsive(30);
+      font-weight: bold;
+      color: #33334f;
+    }
+
+    .content-text {
+      margin-top: responsive(44);
+      width: responsive(429);
+      height: responsive(94);
+      font-size: responsive(16);
+      color: #767ead;
+    }
+
+    .content-btn-group {
+      margin-top: responsive(40);
+      width: responsive(398);
+      height: responsive(55);
+      font-size: 0px;
+
+      .sign-up-btn, .watch-video-btn {
+        width: responsive(183);
+        height: responsive(55);
+        border-radius: responsive(55 / 2);
+        font-size: responsive(16);
+        cursor: pointer;
+      }
+
+      .sign-up-btn {
+        margin-right: responsive(30);
+        background-color: #8065ff;
+        color: #fafeff;
+      }
+
+      .watch-video-btn {
+        background-color: #ffffff;
+        color: #8065ff;
+      }
+    }
+  }
+
+  .extensions {
+    .extension {
+      box-shadow: responsive(-3.106) responsive(11.591) responsive(30) 0px rgba(178, 178, 178, 0.05);
+    }
+
+    @each $var in (1, 2, 3, 4, 5, 6, 7, 8, 9) {
+      .extension-#{$var} {
+        border-radius: 50%;
+        background-image: url("../images/integration/extension#{$var}.png");
+        background-position: 50%;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .extension-1 {
+      width: responsive(128);
+      height: responsive(128);
+      background-color: #00467f;
+      background-size: 44%;
+      transform: translate(responsive(540), responsive(788));
+    }
+
+    .extension-2 {
+      width: responsive(94.4);
+      height: responsive(94.4);
+      background-color: #ff850d;
+      background-size: 57.2%;
+      transform: translate(responsive(200), responsive(532));
+    }
+
+    .extension-3 {
+      width: responsive(128);
+      height: responsive(128);
+      background-color: #ffffff;
+      background-size: 63.28%;
+      transform: translate(responsive(209), responsive(263.6));
+    }
+
+    .extension-4 {
+      width: responsive(128);
+      height: responsive(128);
+      background-color: #ffffff;
+      background-size: 47.66%;
+      transform: translate(responsive(650), responsive(242.6));
+    }
+
+    .extension-5 {
+      width: responsive(130);
+      height: responsive(130);
+      background-color: #13b5ea;
+      background-size: 100%;
+      transform: translate(responsive(671), responsive(-88.4));
+    }
+
+    .extension-6 {
+      width: responsive(94.3);
+      height: responsive(94.3);
+      background-color: #00d7be;
+      background-size: 61.8%;
+      background-position: 50% 56%;
+      transform: translate(responsive(785), responsive(147.6));
+    }
+
+    .extension-7 {
+      width: responsive(128);
+      height: responsive(128);
+      background-color: #e6b935;
+      background-size: 54.69%;
+      transform: translate(responsive(294), responsive(54.3));
+    }
+
+    .extension-8 {
+      width: responsive(203);
+      height: responsive(203);
+      background-color: #ffffff;
+      background-size: 68.47%;
+      transform: translate(responsive(394), responsive(-277.7));
+    }
+
+    .extension-9 {
+      width: responsive(128);
+      height: responsive(128);
+      background-color: #2e60a3;
+      background-size: 60.17%;
+      background-position: 50% 56%;
+      transform: translate(responsive(408), responsive(-639.7));
+    }
+  }
+}
