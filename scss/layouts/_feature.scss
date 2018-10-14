@@ -1,6 +1,17 @@
 @import "../common/function";
 
 .feature {
+  margin-top: responsive(200);
+
+  .feature-vector {
+    margin: 0 auto;
+    width: responsive(100);
+    height: responsive(20);
+    background-image: url("../images/content-vector.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
   .feature-title {
     margin: 0 auto;
     margin-top: responsive(40);
@@ -113,6 +124,7 @@
           font-size: responsive(16);
           font-weight: 500;
           color: #767ead;
+          cursor: pointer;
         }
       }
     }
