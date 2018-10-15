@@ -1,7 +1,7 @@
 @import "../common/function";
 
 .industry {
-  transform: translateY(responsive(-108));
+  margin-top: responsive(-108);
 
   .industry-vector {
     margin: 0 auto;

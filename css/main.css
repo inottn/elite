@@ -708,7 +708,7 @@
 }
 
 .industry {
-  transform: translateY(-6.42475vw);
+  margin-top: -6.42475vw;
 }
 
 .industry .industry-vector {
@@ -839,6 +839,69 @@
 
 .industry .industry-cases .case-6 .case-text {
   color: #007cff;
+}
+
+.start {
+  display: flex;
+  margin-top: 9.51814vw;
+  padding-left: 22.0702vw;
+}
+
+.start .start-content .content-vector {
+  margin-top: 6.42475vw;
+  width: 5.94884vw;
+  height: 1.18977vw;
+  background-image: url("../images/content-vector.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.start .start-content .content-title {
+  margin-top: 2.37954vw;
+  width: 18.20345vw;
+  font-size: 1.78465vw;
+  font-weight: 500;
+  color: #33334f;
+}
+
+.start .start-content .content-text {
+  margin-top: 1.5467vw;
+  width: 25.52052vw;
+  font-size: 1.07079vw;
+  color: #767ead;
+}
+
+.start .start-content .start-btn-container {
+  margin-top: 2.73647vw;
+}
+
+.start .start-content .start-btn-container .start-btn {
+  padding: 0.95181vw 2.26056vw;
+  width: 13.20642vw;
+  height: 3.5693vw;
+  border-radius: 1.78465vw;
+  background-color: #33334f;
+  font-size: 1.18977vw;
+  font-weight: 500;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.start .start-content .start-btn-container .start-btn-vector {
+  width: 9.87507vw;
+  height: 2.91493vw;
+  background-image: url("../images/start/no-credt-card-required.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  transform: translate(14.27722vw, -2.37954vw);
+}
+
+.start .start-vector {
+  width: 39.5003vw;
+  height: 31.76681vw;
+  background-image: url("../images/start/start-vector.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 :root {

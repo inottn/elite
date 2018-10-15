@@ -1,0 +1,66 @@
+@import "../common/function";
+
+.start {
+  display: flex;
+  margin-top: responsive(160);
+  padding-left: responsive(371);
+
+  .start-content {
+    .content-vector {
+      margin-top: responsive(108);
+      width: responsive(100);
+      height: responsive(20);
+      background-image: url("../images/content-vector.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+    .content-title {
+      margin-top: responsive(40);
+      width: responsive(306);
+      font-size: responsive(30);
+      font-weight: 500;
+      color: #33334f;
+    }
+
+    .content-text {
+      margin-top: responsive(26);
+      width: responsive(429);
+      font-size: responsive(18);
+      color: #767ead;
+    }
+
+    .start-btn-container {
+      margin-top: responsive(46);
+
+      .start-btn {
+        padding: responsive(16) responsive(38);
+        width: responsive(222);
+        height: responsive(60);
+        border-radius: responsive(30);
+        background-color: #33334f;
+        font-size: responsive(20);
+        font-weight: 500;
+        color: #ffffff;
+        cursor: pointer;
+      }
+
+      .start-btn-vector {
+        width: responsive(166);
+        height: responsive(49);
+        background-image: url("../images/start/no-credt-card-required.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        transform: translate(responsive(240), responsive(-40))
+      }
+    }
+  }
+
+  .start-vector {
+    width: responsive(664);
+    height: responsive(534);
+    background-image: url("../images/start/start-vector.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
