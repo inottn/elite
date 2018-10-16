@@ -904,6 +904,317 @@
   background-repeat: no-repeat;
 }
 
+.footer {
+  padding-left: var(--root-padding-left);
+  padding-right: var(--root-padding-right);
+  padding-bottom: 2.49851vw;
+  background-color: #33334f;
+}
+
+.footer .sign-up {
+  display: flex;
+}
+
+.footer .sign-up .sign-up-content {
+  margin-top: 5.94884vw;
+}
+
+.footer .sign-up .sign-up-content .content-title {
+  width: 31.64783vw;
+  font-size: 1.78465vw;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.footer .sign-up .sign-up-content .content-text {
+  margin-top: 2.14158vw;
+  width: 35.33611vw;
+  font-size: 0.95181vw;
+  color: #767ead;
+}
+
+.footer .sign-up .sign-up-btn-group {
+  margin-top: 7.55503vw;
+  margin-left: auto;
+  width: 23.67638vw;
+  height: 3.27186vw;
+  font-size: 0px;
+}
+
+.footer .sign-up .sign-up-btn-group .sign-up-btn, .footer .sign-up .sign-up-btn-group .watch-video-btn {
+  width: 10.88638vw;
+  height: 3.27186vw;
+  border-radius: 1.63593vw;
+  font-size: 0.95181vw;
+  cursor: pointer;
+}
+
+.footer .sign-up .sign-up-btn-group .sign-up-btn {
+  margin-right: 1.78465vw;
+  background-color: #8065ff;
+  color: #fafeff;
+}
+
+.footer .sign-up .sign-up-btn-group .watch-video-btn {
+  background-color: #ffffff;
+  color: #8065ff;
+}
+
+.footer .features-and-integration {
+  display: flex;
+  margin-top: 5.94884vw;
+}
+
+.footer .features-and-integration .features {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  width: 60.0238vw;
+}
+
+.footer .features-and-integration .features .feature-title {
+  position: absolute;
+  font-size: 1.18977vw;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.footer .features-and-integration .features .feature {
+  margin-top: 1.18977vw;
+  padding-left: 0.95181vw;
+  width: 50%;
+  background-image: url("../images/footer/list-image.png");
+  background-position: 0 center;
+  background-repeat: no-repeat;
+  font-size: 0.95181vw;
+  color: #767ead;
+}
+
+.footer .features-and-integration .features .feature-1, .footer .features-and-integration .features .feature-2 {
+  margin-top: 3.5693vw;
+}
+
+.footer .features-and-integration .app-integration {
+  position: relative;
+  width: 10.35098vw;
+}
+
+.footer .features-and-integration .app-integration .app-integration-title {
+  position: absolute;
+  font-size: 1.18977vw;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.footer .features-and-integration .app-integration .app-integration {
+  margin-top: 1.18977vw;
+  font-size: 0.95181vw;
+  color: #767ead;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon {
+  display: inline-block;
+  margin-right: 0.59488vw;
+  width: 1.18977vw;
+  height: 1.18977vw;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-1 {
+  background-image: url("../images/footer/icon/icon1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-2 {
+  background-image: url("../images/footer/icon/icon2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-3 {
+  background-image: url("../images/footer/icon/icon3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-4 {
+  background-image: url("../images/footer/icon/icon4.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-5 {
+  background-image: url("../images/footer/icon/icon5.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-6 {
+  background-image: url("../images/footer/icon/icon6.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-7 {
+  background-image: url("../images/footer/icon/icon7.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-8 {
+  background-image: url("../images/footer/icon/icon8.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-9 {
+  background-image: url("../images/footer/icon/icon9.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-1 {
+  background-color: #13b5ea;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-2 {
+  background-color: #e30512;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-3 {
+  background-color: #ffffff;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-4 {
+  background-color: #0172c6;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-6 {
+  background-color: #ffffff;
+}
+
+.footer .features-and-integration .app-integration .app-integration .integration-icon-7 {
+  background-color: #2ca01c;
+}
+
+.footer .features-and-integration .app-integration .app-integration-1 {
+  margin-top: 3.5693vw;
+}
+
+.footer .ft {
+  display: flex;
+  margin-top: 6.06782vw;
+}
+
+.footer .ft .ft-left .ft-logo {
+  width: 7.73349vw;
+  height: 2.37954vw;
+  background-image: url("../images/footer/logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .ft .ft-left .ft-phone {
+  margin-top: 2.37954vw;
+  font-size: 1.18977vw;
+  line-height: 2.37954vw;
+  color: #767ead;
+}
+
+.footer .ft .ft-left .ft-email {
+  margin-top: 1.78465vw;
+  font-size: 1.18977vw;
+  color: #767ead;
+}
+
+.footer .ft .ft-left .ft-share {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.37954vw;
+  width: 12.49256vw;
+}
+
+.footer .ft .ft-left .ft-share .share-icon {
+  width: 1.48721vw;
+  height: 1.48721vw;
+  cursor: pointer;
+}
+
+.footer .ft .ft-left .ft-share .share-icon-1 {
+  background-image: url("../images/footer/share/share1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .ft .ft-left .ft-share .share-icon-2 {
+  background-image: url("../images/footer/share/share2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .ft .ft-left .ft-share .share-icon-3 {
+  background-image: url("../images/footer/share/share3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .ft .ft-left .ft-share .share-icon-4 {
+  background-image: url("../images/footer/share/share4.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .ft .ft-left .ft-share .share-icon-5 {
+  background-image: url("../images/footer/share/share5.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.footer .ft .ft-left .ft-copyright {
+  margin-top: 2.37954vw;
+  font-size: 0.83284vw;
+  color: #767ead;
+}
+
+.footer .ft .ft-right {
+  align-self: flex-end;
+  margin-left: auto;
+}
+
+.footer .ft .ft-right .ft-site-link {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.07079vw;
+  color: #767ead;
+}
+
+.footer .ft .ft-right .ft-site-link .ft-site-link-group:last-child {
+  margin-left: 10.70791vw;
+}
+
+.footer .ft .ft-right .ft-site-link .ft-site-link-group .site-link {
+  display: block;
+  text-align: right;
+}
+
+.footer .ft .ft-right .ft-site-link .ft-site-link-group .last-link {
+  margin-top: 2.37954vw;
+}
+
+.footer .ft .ft-right .ft-lang {
+  margin-top: 5.71089vw;
+  margin-left: auto;
+  width: 14.57466vw;
+  height: 1.66568vw;
+  background-image: url("../images/footer/lang.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 :root {
   --root-width: 100vw;
   --root-padding-left: 14.8721vw;
@@ -914,7 +1225,7 @@
   --vector-width: 53.77751vw;
 }
 
-html, body, button {
+html, body, button, ul, li {
   margin: 0;
   padding: 0;
 }
@@ -922,6 +1233,15 @@ html, body, button {
 button, input {
   border: none;
   outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 * {
