@@ -7,14 +7,6 @@
 @import "./layouts/start";
 @import "./layouts/footer";
 
-$base-root-width: 1681px;
-$base-root-padding-left: 250px;
-$base-root-padding-right: 250px;
-$base-menu-height: 82px;
-$base-menu-padding-top: 20px;
-$base-vector-width: 904px;
-$base-hero-content-width: 528px;
-
 :root {
   --root-width: 100vw;
   --root-padding-left: #{responsive($base-root-padding-left)};
@@ -23,6 +15,11 @@ $base-hero-content-width: 528px;
   --menu-padding-top: #{responsive($base-menu-padding-top)};
   --hero-content-width: #{responsive($base-hero-content-width)};
   --vector-width: #{responsive($base-vector-width)};
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
 }
 
 html, body, button, ul, li {
@@ -42,9 +39,4 @@ ul, li {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: "Roboto";
 }

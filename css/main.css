@@ -56,7 +56,7 @@
 
 .hero .content-container .content .content-title {
   margin-top: 2.49851vw;
-  width: 24.15229vw;
+  width: 24.6282vw;
   height: 6.78168vw;
   font-size: 2.97442vw;
   font-weight: bold;
@@ -293,10 +293,11 @@
 .feature .feature-title {
   margin: 0 auto;
   margin-top: 2.37954vw;
-  width: 30.69601vw;
+  width: 32.59964vw;
   font-size: 1.78465vw;
   font-weight: bold;
   color: #33334f;
+  text-align: center;
 }
 
 .feature .feature-text {
@@ -525,7 +526,7 @@
 
 .integration .content .content-title {
   margin-top: 2.37954vw;
-  width: 18.20345vw;
+  width: 18.67936vw;
   height: 4.40214vw;
   font-size: 1.78465vw;
   font-weight: bold;
@@ -723,10 +724,11 @@
 .industry .industry-title {
   margin: 0 auto;
   margin-top: 2.37954vw;
-  width: 20.22606vw;
+  width: 21.65378vw;
   font-size: 1.78465vw;
   font-weight: bold;
   color: #33334f;
+  text-align: center;
 }
 
 .industry .industry-text {
@@ -858,7 +860,6 @@
 
 .start .start-content .content-title {
   margin-top: 2.37954vw;
-  width: 18.20345vw;
   font-size: 1.78465vw;
   font-weight: 500;
   color: #33334f;
@@ -877,7 +878,6 @@
 
 .start .start-content .start-btn-container .start-btn {
   padding: 0.95181vw 2.26056vw;
-  width: 13.20642vw;
   height: 3.5693vw;
   border-radius: 1.78465vw;
   background-color: #33334f;
@@ -1225,6 +1225,11 @@
   --vector-width: 53.77751vw;
 }
 
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
 html, body, button, ul, li {
   margin: 0;
   padding: 0;
@@ -1242,11 +1247,6 @@ ul, li {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: "Roboto";
 }
 
 /*# sourceMappingURL=main.css.map */
