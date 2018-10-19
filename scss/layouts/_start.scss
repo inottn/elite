@@ -41,6 +41,17 @@
         font-weight: 500;
         color: #ffffff;
         cursor: pointer;
+        box-shadow: rgba(0,0,0,.1) 0 20px 60px -10px;
+        transition: transform .4s cubic-bezier(.33, 1.9, .52, .7), box-shadow .2s;
+
+        &:hover {
+          box-shadow: rgba(0,0,0,.09) 0 6px 9px 0;
+        }
+
+        &:active {
+          transition: transform .2s, box-shadow .2s;
+          transform: scale(.9);
+        }
       }
 
       .start-btn-vector {

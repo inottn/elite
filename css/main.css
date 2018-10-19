@@ -84,6 +84,18 @@
   height: 3.27186vw;
   border-radius: 1.63593vw;
   font-size: 0.95181vw;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 20px 60px -10px;
+  transition: transform 0.4s cubic-bezier(0.33, 1.9, 0.52, 0.7), box-shadow 0.2s;
+}
+
+.hero .content-container .content .content-btn-group .sign-up-btn:hover, .hero .content-container .content .content-btn-group .watch-video-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.09) 0 6px 9px 0;
+}
+
+.hero .content-container .content .content-btn-group .sign-up-btn:active, .hero .content-container .content .content-btn-group .watch-video-btn:active {
+  transition: transform .2s, box-shadow .2s;
+  transform: scale(0.9);
 }
 
 .hero .content-container .content .content-btn-group .sign-up-btn {
@@ -484,6 +496,7 @@
   width: 30.10113vw;
   height: 3.5693vw;
   border-radius: 1.78465vw;
+  font-size: 0.95181vw;
   color: #767ead;
 }
 
@@ -495,7 +508,6 @@
   position: absolute;
   top: 0.29744vw;
   right: 0.35693vw;
-  padding: 0.95181vw 2.14158vw;
   width: 9.28019vw;
   height: 2.97442vw;
   border-radius: 1.48721vw;
@@ -504,6 +516,12 @@
   font-weight: 500;
   color: #767ead;
   cursor: pointer;
+  transition: transform 0.4s cubic-bezier(0.33, 1.9, 0.52, 0.7);
+}
+
+.feature .feature-list .feature-subscribe .subscribe-email .subscribe-btn:active {
+  transition: transform .2s;
+  transform: scale(0.9);
 }
 
 .integration {
@@ -554,6 +572,17 @@
   border-radius: 1.63593vw;
   font-size: 0.95181vw;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 20px 60px -10px;
+  transition: transform 0.4s cubic-bezier(0.33, 1.9, 0.52, 0.7), box-shadow 0.2s;
+}
+
+.integration .content .content-btn-group .sign-up-btn:hover, .integration .content .content-btn-group .watch-video-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.09) 0 6px 9px 0;
+}
+
+.integration .content .content-btn-group .sign-up-btn:active, .integration .content .content-btn-group .watch-video-btn:active {
+  transition: transform .2s, box-shadow .2s;
+  transform: scale(0.9);
 }
 
 .integration .content .content-btn-group .sign-up-btn {
@@ -885,6 +914,17 @@
   font-weight: 500;
   color: #ffffff;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 20px 60px -10px;
+  transition: transform 0.4s cubic-bezier(0.33, 1.9, 0.52, 0.7), box-shadow 0.2s;
+}
+
+.start .start-content .start-btn-container .start-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.09) 0 6px 9px 0;
+}
+
+.start .start-content .start-btn-container .start-btn:active {
+  transition: transform .2s, box-shadow .2s;
+  transform: scale(0.9);
 }
 
 .start .start-content .start-btn-container .start-btn-vector {
@@ -947,6 +987,17 @@
   border-radius: 1.63593vw;
   font-size: 0.95181vw;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 20px 60px -10px;
+  transition: transform 0.4s cubic-bezier(0.33, 1.9, 0.52, 0.7), box-shadow 0.2s;
+}
+
+.footer .sign-up .sign-up-btn-group .sign-up-btn:hover, .footer .sign-up .sign-up-btn-group .watch-video-btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.09) 0 6px 9px 0;
+}
+
+.footer .sign-up .sign-up-btn-group .sign-up-btn:active, .footer .sign-up .sign-up-btn-group .watch-video-btn:active {
+  transition: transform .2s, box-shadow .2s;
+  transform: scale(0.9);
 }
 
 .footer .sign-up .sign-up-btn-group .sign-up-btn {

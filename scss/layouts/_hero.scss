@@ -84,6 +84,18 @@
           height: responsive(55);
           border-radius: responsive(55 / 2);
           font-size: responsive(16);
+          cursor: pointer;
+          box-shadow: rgba(0,0,0,.1) 0 20px 60px -10px;
+          transition: transform .4s cubic-bezier(.33, 1.9, .52, .7), box-shadow .2s;
+
+          &:hover {
+            box-shadow: rgba(0,0,0,.09) 0 6px 9px 0;
+          }
+
+          &:active {
+            transition: transform .2s, box-shadow .2s;
+            transform: scale(.9);
+          }
         }
 
         .sign-up-btn {

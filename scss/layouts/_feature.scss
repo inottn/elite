@@ -106,6 +106,7 @@
           width: responsive(506);
           height: responsive(60);
           border-radius: responsive(30);
+          font-size: responsive(16);
           color: #767ead;
 
           &::placeholder {
@@ -117,7 +118,6 @@
           position: absolute;
           top: responsive(5);
           right: responsive(6);
-          padding: responsive(16) responsive(36);
           width: responsive(156);
           height: responsive(50);
           border-radius: responsive(25);
@@ -126,6 +126,12 @@
           font-weight: 500;
           color: #767ead;
           cursor: pointer;
+          transition: transform .4s cubic-bezier(.33, 1.9, .52, .7);
+
+          &:active {
+            transition: transform .2s;
+            transform: scale(.9);
+          }
         }
       }
     }
