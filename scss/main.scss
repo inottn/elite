@@ -17,6 +17,24 @@
   --vector-width: #{responsive($base-vector-width)};
 }
 
+@font-face {
+  font-family: Roboto;
+  src: url("../font/Roboto-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../font/Roboto-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../font/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Roboto";
